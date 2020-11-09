@@ -1,0 +1,43 @@
+blockquote {
+    color: green;
+}
+
+a[href^='https'] {
+    color: #f00;
+}
+
+.list ul li > a[title='youtube'] {
+    color: #ff8d00;
+}
+
+ul + p {
+    font-size: 26px;
+}
+
+a[title] {
+    border: 1px solid #067b09;
+}
+
+.text-box h3:first-child {
+    color: pink;
+}
+
+p + p {
+    color: grey;
+}
+
+.text-box div > p {
+    color: red;
+}
+
+h3[title='text'] {
+    color: blue;
+}
+
+h3[title='text'] + p {
+    color: green;
+}
+
+.yellow {
+    color: yellow;
+}
